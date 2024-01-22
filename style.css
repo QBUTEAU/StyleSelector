@@ -1,0 +1,72 @@
+body{
+    background: rgb(2,8,21);
+    background: linear-gradient(135deg, rgba(2,8,21,1) 15%, rgba(7,16,84,1) 89%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.blocPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    height: 80vh;
+    width: 40%;
+    background: rgba(231, 231, 234, 0.829);
+    border-radius: 10%;
+    border: 3px solid black;
+    box-shadow: 0px 0px 30px 0px black;
+
+}
+.div{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+}
+.inputText{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+p{
+    margin-top: 8px;
+}
+
+.blocPrincipal input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: "Montserrat";
+}
+
+@media screen and (max-width: 1300px){
+    .blocPrincipal{
+        width: 80%;
+        height: 80vh;
+        border-radius: 10px;
+    }
+    .div{
+        height: 200px;
+        width: 200px;
+    }
+    .inputText{
+        width: 100%;
+        text-align: center;
+    }
+    .inputText input{
+        width: 60%;
+    }
+    p{
+        font-family: "Montserrat";
+    }
+}
