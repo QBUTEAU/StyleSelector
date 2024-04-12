@@ -5,7 +5,7 @@ Projet personnel qui a pour but de simuler l'ajout d'un "border-radius" ou d'un 
 ### 📜 Description :
 StyleSelector est un petit site web one-page qui permet aux utilisateurs de tester les propriétés CSS "border-radius" et "background" sur un carré. L'utilisateur a juste à écrire une valeur qui rentre dans une de ces propriétés afin de voir le rendu en temps réel.
 
-### 💻 Technologies utilisés :
+### 💻 Langages utilisés :
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
